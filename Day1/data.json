@@ -1,0 +1,11 @@
+{
+  "name": "Aisha",  
+  "age": 25,
+  "isStudent": true,
+  "address": {
+    "city": "Cairo",
+    "street": "Al-Nasr St"
+  },
+"hobbies": ["reading", "coding"],
+"spouse": null} 
+
