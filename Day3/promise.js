@@ -2,7 +2,7 @@
 const handleAsyncOperation = (inputNumber) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (inputNumber < 0) {
+      if (inputNumber <= 0) {
         reject("Error");
       } else {
         resolve("successfully");

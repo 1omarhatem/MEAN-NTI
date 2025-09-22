@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadUsersBtn.addEventListener('click', () => {
     usersContainer.innerHTML = 'Loading...';
 
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https:/users')
       .then(response => {
         if (!response.ok) {
           throw new Error('error fetching users');
